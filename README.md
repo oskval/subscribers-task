@@ -4,11 +4,12 @@
 This project aims to complete all tasks specified in the [Developer Assessment Task v2.pdf](https://github.com/oskval/subscribers-task/blob/master/Developer%20assessment%20task%20v2.pdf).
 
 ## TODOs
-- Implement SMS, Slack, and email services
+- Implement SMS, Slack, and email services (mocked or actual APIs ?)
 - Add filtering by date range and email
 - Implement backend validation exceptions with custom response middleware
 - Enhance frontend with additional CSS styling
 - Add backend Data Transfer Objects (DTOs)
+- Move data and file validations to actual validators
 
 ## How to Set Up
 
