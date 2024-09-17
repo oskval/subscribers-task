@@ -1,0 +1,32 @@
+.mat-elevation-z8 {
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th.mat-header-cell, td.mat-cell {
+    text-align: left;
+  }
+  
+  th.mat-header-cell {
+    font-weight: bold;
+  }
+  
+  .mat-table-container {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+
+  .error-container {
+    margin-bottom: 15px;
+  }
+  
+  .error-message {
+    font-size: small;
+    display: block;
+    color: red;
+  }
+  

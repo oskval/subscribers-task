@@ -1,0 +1,16 @@
+.upload-container {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.upload-btn-group {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px
+}
+
+.uploaded-files-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}

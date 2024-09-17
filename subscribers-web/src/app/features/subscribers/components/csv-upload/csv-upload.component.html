@@ -1,0 +1,18 @@
+<div class="upload-container">
+  <div class="upload-btn-group">
+    <input type="file" id="selectedFile" style="display: none;" (change)="onFileChange($event)" accept=".csv" multiple/>
+    <input type="button" value="Import subscribers" onclick="document.getElementById('selectedFile').click();" />
+    <button [disabled]="!selectedFiles.length" (click)="emitFiles()">
+      Upload
+    </button>
+  </div>
+
+  <div class="uploaded-files-container">
+    <ng-container *ngFor="let file of fileNames">
+      <div>
+        <label>{{ file }} </label>
+        <button (click)="removeFile(file)">Remove</button>
+      </div>
+    </ng-container>
+  </div>
+</div>
