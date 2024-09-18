@@ -1,8 +1,9 @@
 # subscribers-task
 
+## Total elapsed time: ~6h
+
 ## Note
 This project aims to complete all tasks specified in the [Developer Assessment Task v2.pdf](https://github.com/oskval/subscribers-task/blob/master/Developer%20assessment%20task%20v2.pdf).
-Total elapsed time: ~6h
 
 ## TODOs
 - Implement SMS, Slack, and email services (mocked or actual APIs ?)
