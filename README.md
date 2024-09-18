@@ -10,6 +10,7 @@ This project aims to complete all tasks specified in the [Developer Assessment T
 - Enhance frontend with additional CSS styling
 - Add backend Data Transfer Objects (DTOs)
 - Move data and file validations to actual validators
+- Tests for everything (integration also :))
 
 ## How to Set Up
 
